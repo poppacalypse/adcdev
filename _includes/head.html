@@ -1,0 +1,25 @@
+{% if page.title  %}
+  <title>{{ page.title }} | Aaron D'Cruz </title>
+  <meta property="og:title" content="{{ page.title }} | Aaron D'Cruz">
+{% else %}
+  <title>ADC Portfolio</title>
+  <meta property="og:title" content="ADC Portfolio">
+{% endif %}
+
+{% if page.description %}
+  <meta property="og:description" content="{{ page.description }}">
+{% else %}
+  <meta property="og:description" content="Hi there! ADC here. This is my web developer portfolio built with Jekyll. Take a look at my projects! If you like what you see, let me know via Twitter DM @poppacalypse">
+{% endif %}
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="TO_DO">
+<meta property="og:site_name" content="ADC Portfolio">
+
+<link rel="icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/TO_DO_favicon.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/main.css">
