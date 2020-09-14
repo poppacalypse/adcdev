@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?w4hgwp');
+  src:  url('fonts/icomoon.eot?w4hgwp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?w4hgwp') format('truetype'),
+    url('fonts/icomoon.woff?w4hgwp') format('woff'),
+    url('fonts/icomoon.svg?w4hgwp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope:before {
+  content: "\e900";
+}
+.icon-mail:before {
+  content: "\e900";
+}
+.icon-email:before {
+  content: "\e900";
+}
+.icon-letter:before {
+  content: "\e900";
+}
+.icon-message:before {
+  content: "\e900";
+}
+.icon-envelope-open-o:before {
+  content: "\e901";
+}
+.icon-paper-plane-o:before {
+  content: "\e902";
+}
+.icon-send-o:before {
+  content: "\e902";
+}
+.icon-envelope-o:before {
+  content: "\e903";
+}
+.icon-paper-plane:before {
+  content: "\e904";
+}
+.icon-send:before {
+  content: "\e904";
+}
+.icon-envelope1:before {
+  content: "\e905";
+}
+.icon-github-alt:before {
+  content: "\e906";
+}
+.icon-github-square:before {
+  content: "\e907";
+}
+.icon-github1:before {
+  content: "\e908";
+}
+.icon-twitter-square:before {
+  content: "\e909";
+}
+.icon-twitter:before {
+  content: "\e90a";
+}
+.icon-linkedin-square:before {
+  content: "\e90b";
+}
+.icon-linkedin:before {
+  content: "\e90c";
+}
+.icon-github:before {
+  content: "\e90d";
+}

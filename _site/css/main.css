@@ -151,7 +151,7 @@ h1 {
 /* SECTION STYLES  */
 #projects {
   display: flex;
-  width: 70%;
+  width: 85%;
   /* background: yellow; */
   justify-content: space-between;
 }
@@ -161,12 +161,27 @@ h1 {
 }
 
 #contact {
-  /* background: orange; */
   display: flex;
+  justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 15%;
+  /* background-color: red; */
 }
-
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+}
+#contact .icon {
+  text-align: center;
+  font-size: 7vh;
+  color: var(--neon);
+  text-shadow:
+    0 0 20px var(--neon-glow),
+    0 0 2.5vmin var(--neon-glow),
+    0 0 5vmin var(--neon-glow),
+    0 0 10vmin var(--neon-glow),
+    0 0 15vmin var(--neon-glow);
+}
 #skills {
   display: flex;
   align-items: center;
