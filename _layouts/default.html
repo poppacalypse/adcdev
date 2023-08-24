@@ -10,18 +10,14 @@
     {% include header.html %}
 
     <div class="content-wrap neon-green">
-      <div class="content-container neon-green">
+      <main class="content-container neon-green">
 
+        {{ content }}
 
-
-        <div>
-          {{ content }}
-        </div>
-
-        {% include footer.html %}
-
-      </div>
+      </main>
     </div>
+
+    {% include footer.html %}
 
   </body>
 </html>

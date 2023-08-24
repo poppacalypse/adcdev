@@ -3,8 +3,8 @@
 
   <head>
     
-  <title>ADC Portfolio</title>
-  <meta property="og:title" content="ADC Portfolio">
+  <title>ADC</title>
+  <meta property="og:title" content="ADC">
 
 
 
@@ -20,13 +20,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
 
 <link rel="stylesheet" href="/css/reset.css">
 <link rel="stylesheet" href="/css/main.css">
-
-<link rel="stylesheet" href="/icomoon-v1.0/style.css">
-
+<link rel="stylesheet" href="/css/mobile.css">
   </head>
 
   <body>
@@ -34,79 +36,189 @@
     <header id="header">
 
   <a href="/" id="header-logo">
-    <h1><i class="neon-red"> Carl</i> 👨🏼‍🍳 <i class="neon-green"> &gt;&gt; </i> 👨🏻‍💻 <i class="neon-blue"> Poppa </i></h1>
+    <h1 class="neon-red"><i class="neon-red">Aaron &nbsp;</i> 👨🏻‍🍳 &nbsp;<i class="bi bi-fast-forward neon-blue"></i> 👨🏼‍💻 <i class="neon-red"> &nbsp; D'Cruz</i></h1>
   </a>
 
 </header>
 
 
     <div class="content-wrap neon-green">
-      <div class="content-container neon-green">
+      <main class="content-container neon-green">
 
+        <div class="column-large">
+  <div class="row row-top">
+    <section id="projects" class="notched-box">
+      <h1 class="vertical-text neon-red ">Projects</h1>
 
-
-        <div>
-            <div class="hero">
-
-    <section id="projects" class="notched-box vertical-text">
-      <h1 class="neon-green">Projects</h1>
-      <div class="project-card">
-        <img src="https://placekitten.com/250/200" alt="">
-        <p>Name of project</p>
-      </div>
-      <div class="project-card">
-        <img src="https://placekitten.com/250/200" alt="">
-        <p>Name of project</p>
-      </div>
-      <div class="project-card">
-        <img src="https://placekitten.com/250/200" alt="">
-        <p>Name of project</p>
-      </div>
-      <div class="project-card">
-        <img src="https://placekitten.com/250/200" alt="">
-        <p>Name of project</p>
-      </div>
-    </section>
-
-    <section id="contact" class="notched-box vertical-text">
-      <h1 class="neon-green">Contact</h1>
-      <div class="contact-icons">
-        <span class="icon icon-envelope"></span>
-        <span class="icon icon-linkedin"></span>
-        <span class="icon icon-twitter"></span>
-        <span class="icon icon-github"></span>
-        <!-- <span class="icon icon-paper-plane-o"></span> -->
-      </div>
-    </section>
-
-  </div>
-
-  <div class="hero">
-
-    <section id="skills" class="notched-box vertical-text">
-      <h1 class="neon-green">Skills</h1>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </section>
-
-    <section id="about" class="notched-box vertical-text">
-      <h1 class="neon-green">About</h1>
-      <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus placeat cumque eaque omnis perferendis, libero nobis ullam nemo ratione quod repudiandae odio sequi doloremque consequuntur quam excepturi mollitia, consequatur blanditiis.</div>
-    </section>
-
-  </div>
-
+      <div class="project-wrapper">
+        <div class="project-card">
+          <div class="project-title">Doggie Birthdays</div>
+          <div class="project-description">Book the perfect venue for your dog's birthday</div>
+          <div class="project-details">
+            <div class="project-status">
+              <p>Launching 2024</p>
+              <br>Status
+              <button class="wip">WIP</button>
+            </div>
+            <img src="/images/doggybday emojimix.app_169_62.png" alt="Doggy Birthdays" class="project-logo">
+          </div>
         </div>
+    
+        <div class="project-card">
+          <div class="project-title">Beyond Demise</div>
+          <div class="project-description">Release secrets to a trusted party upon your death</div>
+          <div class="project-details">
+            <div class="project-status">
+              <p>Launching 2024</p>
+              <br>Status
+              <button class="wip">WIP</button>
+            </div>
+            <img src="/images/beyonddemise emojimix.app_97_94.png" alt="Beyond Demise" class="project-logo">
+          </div>
+        </div>
+    
+        <div class="project-card">
+          <div class="project-title">F&B Tools</div>
+          <div class="project-description">Useful tools for small restaurants</div>
+          <div class="project-details">
+            <div class="project-status">
+              <p>Launched 2023</p>
+              <br>Status
+              <a href="https://fnb.tools">
+                <button class="active">Live &nbsp;<span class="dot"></span></button>
+              </a>
+            </div>
+            <img src="/images/logo_gradient.png" alt="F&B Tools" class="project-logo">
+          </div>
+        </div>
+    
+        <div class="project-card">
+          <div class="project-title">Maynuu</div>
+          <div class="project-description">All-in-one online ordering system for small restaurants</div>
+          <div class="project-details">
+            <div class="project-status">
+              <p>Launched 2020</p>
+              <br>Status
+              <a href="https://maynuu.com/?ref=aarondcruz.dev">
+                <button class="active">Live &nbsp;<span class="dot"></span></button>
+              </a>
+            </div>
+            <img src="/images/maynuu logo.png" alt="Maynuu" class="project-logo">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
-        <div id="footer">
-  <p>Hi, I'm a footer</p>
-  <p>layout inspired by flo-ra.dev and battlestar galactica (reimagined)</p>
+  <div class="row row-bottom">
+    <section id="skills" class="notched-box ">
+      <h1 class="vertical-text neon-red">Skills</h1>
+      <div class="skills-svg-wrapper">
+        <div class="svg">
+          <img src="/images/rails-svgrepo-com.svg" alt="Ruby on Rails" title="Ruby on Rails" class="rails">
+        </div>
+        <div class="svg">
+          <img src="/images/ruby-svgrepo-com.svg" alt="Ruby Programming Language" title="Ruby">
+          <img src="/images/jekyll-svgrepo-com.svg" alt="Jekyll" title="Jekyll">
+          <img src="/images/git-svgrepo-com.svg" alt="Git Version Control" title="Git">
+          <img src="/images/vs-code-svgrepo-com.svg" alt="VS Code" title="VS Code">
+          <img src="/images/html-svgrepo-com.svg" alt="HTML5" title="HTML">
+          <img src="/images/css3-svgrepo-com.svg" alt="CSS3" title="CSS">
+          <img src="/images/sass-svgrepo-com.svg" alt="SASS" title="SASS">
+          <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" alt="Bootstrap" title="Bootstrap">
+          <img src="/images/javascript-svgrepo-com.svg" alt="JavaScript Programming Language" title="JavaScript (yucks!)">
+          <img src="/images/react-svgrepo-com.svg" alt="React" title="React">
+          <img src="/images/vite-svgrepo-com.svg" alt="Vite" title="Vite">
+          <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg" alt="Heroku" title="Heroku">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="notched-box ">
+      <h1 class="vertical-text neon-red">About</h1>
+      <div class="about-card">
+        <div class="about-title">
+          <span>
+            tl;dr <strong>Former restaurateur → self-taught programmer</strong>
+          </span>
+        </div>
+        <div class="about-text-image">
+          I enjoyed 13 years owning a restaurant and 7 years running a bakery. In 2019, I sold my businesses and started learning to code. Now, I work as a freelance software programmer. 
+          <br><br>I specialise in Shopify and web development for small businesses. On the side, I like to build calm, meaningful projects.
+          <div class="glitch-effect"></div>
+        </div>
+        <div class="about-text">
+          I enjoyed 13 years owning a restaurant and 7 years running a bakery. In 2019, I sold my businesses and started learning to code. Now, I work as a freelance software programmer. 
+        </div>
+        <div class="about-image">
+          I specialise in Shopify and web development for small businesses. On the side, I like to build calm, meaningful projects.
+          <div class="glitch-effect"></div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+
+  <div class="row">
+    <marquee>
+      [ ACCESS GRANTED ] 
+       System Boot… [Complete]
+      Volume Serial Number>
+    
+      2730564-369-0
+      INITIALISING POPPA INTERFACE VERSION 2.0...
+      C:\>dir /w /p
+      WEBLOG/
+      Latest Posts_ 
+      • { <a href="">hello darkness</a> } 
+      • { my old frand }
+    </marquee>
+
+  </div>
 </div>
 
-
-      </div>
+<div class="column-small">
+  <section id="contact" class="notched-box ">
+    <h1 class="vertical-text neon-blue">Connect</h1>
+    <div class="contact-icons neon-blue">
+      <a style="margin-top: 1rem" class="bi" href="https://alpaca.gold/@poppacalypse">
+        <i class="bi bi-mastodon"></i>
+      </a>
+      <a href="https://spacehey.com/poppacalypse" class="svg">
+        <img src="/images/spacehey_icon.svg" alt="SpaceHey" style="width: 2.2rem; padding: 0; margin: 0 0 0 -0.5rem;">
+      </a>
+      <a class="bi" href="https://twitter.com/poppacalypse">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a class="bi" href="https://twitch.tv/poppacalypse">
+        <i class="bi bi-twitch"></i>
+      </a>
+      <a class="bi" href="https://www.linkedin.com/in/aaronwdcruz/">
+        <i class="bi bi-linkedin"></i>
+      </a>
     </div>
+  </section>
+
+  <section id="coffee" class="notched-box ">
+    <h1 class="vertical-text neon-blue">Support</h1>
+    <div class="svg neon-blue">
+      <a style="margin-top: 1rem;" href="https://ko-fi.com/poppacalypse">
+        <img src="/images/kofi-svgrepo-com.svg" alt="Ko-fi">
+      </a>
+      <a href="https://www.buymeacoffee.com/poppacalypse">
+        <img src="/images/buymeacoffee-svgrepo-com.svg" alt="Buy Me A Coffee">
+      </a>
+    </div>
+  </section>
+</div>
+
+      </main>
+    </div>
+
+    <div id="footer">
+  &copy; 3023 :: some rights reserved
+</div>
+
 
   </body>
 </html>
